@@ -15,6 +15,17 @@ public class TowerManager : MonoBehaviour
     private void OnMouseDown()
     {
         isSelected = true;
+        SelectionManager.instance.SelectTower(this);
         Debug.Log(gameObject.name + " is selected");
+    }
+
+    public void DeselectTower()
+    {
+        isSelected = false;
+    }
+
+    public void SelectTower()
+    {
+       // isSelected = true;
     }
 }
