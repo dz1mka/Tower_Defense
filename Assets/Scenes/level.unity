@@ -1882,6 +1882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905909529}
   - component: {fileID: 905909530}
+  - component: {fileID: 905909531}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -1916,6 +1917,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c4835a2173e0345ad920df69a6a3ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &905909531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905909528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b6913788b8c2841b359ec4c53f6871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buyUI: {fileID: 0}
+  buyButtonPrefab: {fileID: 0}
+  buttonRadius: 50
 --- !u!1001 &927194280
 PrefabInstance:
   m_ObjectHideFlags: 0
